@@ -1,0 +1,29 @@
+cxx_binary(
+  name = 'grasslands',
+  srcs = [
+    'grasslands.c',
+  ],
+  deps = [
+    '//:czmq',
+  ],
+)
+
+cxx_binary(
+  name = 'hello',
+  srcs = [
+    'hello.c',
+  ],
+  deps = [
+    '//:czmq',
+  ],
+)
+
+cxx_binary(
+  name = 'ironhouse',
+  srcs = [
+    'ironhouse.c',
+  ],
+  deps = [
+    '//:czmq',
+  ],
+)

@@ -114,6 +114,14 @@ bindings/qt/selftest/selftest
 *.swp
 *.bak
 .test*
+/.curve/
 
 # editor backups
 *~
+
+# Buck
+/buck-out/
+/.buckd/
+/buckaroo/
+.buckconfig.local
+BUCKAROO_DEPS
